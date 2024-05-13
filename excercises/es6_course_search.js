@@ -38,11 +38,5 @@ let courses = [
   },
 ];
 
-for (const course of courses) {
-  if (course.CourseId == PROG200) {
-    StartDateFind = course.StartDate;
-  }
-}
-
-console.log("The course start date is: " + StartDateFind);
-console.log();
+let prog200Course1 = courses.find((course) => course.CourseId == "PROG200");
+console.log(prog200Course1.StartDate);
