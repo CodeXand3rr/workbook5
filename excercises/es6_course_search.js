@@ -40,3 +40,6 @@ let courses = [
 
 let prog200Course1 = courses.find((course) => course.CourseId == "PROG200");
 console.log(prog200Course1.StartDate);
+
+let Location = locations.find((location) => location.CourseId == "Classroom 1");
+console.log(Classroom1.location);
